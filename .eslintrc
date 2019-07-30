@@ -1,0 +1,36 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true,
+    "mocha": true,
+    "jest": true,
+    "jquery": true
+  },
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "parser": "babel-eslint",
+  },
+  "plugins": [
+    "import",
+    "react",
+  ],
+  "extends": ["standard", "standard-react"],
+
+  "rules": {
+    "camelcase": 0,
+    "comma-dangle": 0,
+    "no-new": 0,
+    "space-infix-ops": 0,
+    "quotes": 0,
+    "jsx-quotes": 0,
+    "react/jsx-quotes": 0,
+    "react/prop-types": 0,
+  },
+
+  "settings": {
+    "import/parser": "babel-eslint",
+  },
+  "globals": {
+  }
+}
